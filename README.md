@@ -358,3 +358,341 @@ alphabetically:
 </tr>
 </tbody>
 </table>
+
+## **11. Sum Digits**
+
+Write a **function**, which will be given a single **number**. Your task
+is to find the **sum** of its digits.
+
+### Examples
+
+| **Input** | **Output** |
+| --------- | ---------- |
+| 245678    | **32**     |
+| 97561     | **28**     |
+| 543       | **12**     |
+
+## **12. Chars to String**
+
+Write a **function**, which receives **3 parameters**. Each parameter is
+a single character. Combine all the characters into **one** string and
+print it on the console.
+
+### Examples
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>'a',</p>
+<p>'b',</p>
+<p>'c'</p></td>
+<td>abc</td>
+</tr>
+<tr class="even">
+<td><p>'%',</p>
+<p>'2',</p>
+<p>'o'</p></td>
+<td>%2o</td>
+</tr>
+<tr class="odd">
+<td><p>'1',</p>
+<p>'5',</p>
+<p>'p'</p></td>
+<td>15p</td>
+</tr>
+</tbody>
+</table>
+
+## **13. Town Info**
+
+You will be given **3 parameters**. The first parameter will be the name
+of the **town** (string), the second – the **population** (number), and
+the third the **area** (number). Print the result in the following
+format:
+
+"**Town {town name} has population of {population} and area {area}
+square km.**"
+
+### Examples
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>'Sofia',</p>
+<p>1286383,</p>
+<p>492</p></td>
+<td>Town Sofia has population of 1286383 and area 492 square km.</td>
+</tr>
+<tr class="even">
+<td><p>'Plovdiv',</p>
+<p>1481353,</p>
+<p>512</p></td>
+<td>Town Plovdiv has population of 1481353 and area 512 square km.</td>
+</tr>
+</tbody>
+</table>
+
+## **14. Convert Meters to Kilometres**
+
+You will be given a **number** that will be the distance in **meters**.
+Write a program that converts **meters** to **kilometers** formatted to
+the **second decimal** point.
+
+### Examples
+
+| **Input** | **Output** |
+| --------- | ---------- |
+| 1852      | 1.85       |
+| 798       | 0.80       |
+
+## **15. Pounds to Dollars**
+
+Write a **function** that converts British **pounds** to **dollars**
+formatted to the **3rd decimal point**.
+
+  - 1 British Pound = 1.31 Dollars
+
+### Examples
+
+| **Input** | **Output** |
+| --------- | ---------- |
+| 80        | 104.800    |
+| 39        | 51.090     |
+
+## **16. Reversed Chars**
+
+Write a program that takes **3 parameters** (characters) and prints them
+in **reversed order** with a space between them.
+
+### Examples
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>'A',</p>
+<p>'B',</p>
+<p>'C'</p></td>
+<td>C B A</td>
+</tr>
+<tr class="even">
+<td><p>'1',</p>
+<p>'L',</p>
+<p>'&amp;'</p></td>
+<td>&amp; L 1</td>
+</tr>
+</tbody>
+</table>
+
+## **17. Lower or Upper**
+
+Write a **function** that prints whether a given character is
+**upper-case** or **lower-case**.
+
+### Examples
+
+| **Input** | **Output** |
+| --------- | ---------- |
+| 'L'       | upper-case |
+| 'f'       | lower-case |
+
+## **18. \*Calculator**
+
+Write a **function** that receives 3 parameters: a **number**, an
+**operator** (string), and **another number**.
+
+The **operator** can be: **'+', '-', '/', '\*'.** Print the result of
+the calculation on the console formatted to the **second decimal**
+point.
+
+### Examples
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>5,</p>
+<p>'+',</p>
+<p>10</p></td>
+<td>15.00</td>
+</tr>
+<tr class="even">
+<td><p>25.5,</p>
+<p>'-',</p>
+<p>3</p></td>
+<td>22.50</td>
+</tr>
+</tbody>
+</table>
+
+## **19. \*Gladiator Expenses**
+
+As a gladiator, Peter has to repair his broken equipment when he loses a
+fight. His equipment consists of a helmet, sword, shield, and armor. You
+will receive Peter\`s **lost fights count**.
+
+  - Every **second** lost game, his helmet is broken.
+
+  - Every **third** lost game, his sword is broken.
+
+  - When both **his sword and helmet are broken** in the same lost
+    fight, his **shield also breaks**.
+
+  - **Every** **second time**, when his shield brakes, his **armor**
+    also needs to be repaired.
+
+You will receive the price of each item in his equipment. Calculate his
+expenses for the year for renewing his equipment.
+
+**Input / Constraints**
+
+You will receive 5 parameters to your function:
+
+  - The first parameter - **lost fights count** - is an integer in the
+    range **\[0, 1000\]**.
+
+  - The second parameter - **helmet price** - is the floating-point
+    number in the range **\[0, 1000\]**.
+
+  - The third parameter - **sword price** - is the floating-point number
+    in the range **\[0, 1000\]**.
+
+  - The fourth parameter - **shield price** - is the floating-point
+    number in the range **\[0, 1000\]**.
+
+  - The fifth parameter - **armor price** - is the floating-point number
+    in the range **\[0, 1000\]**.
+
+**Output**
+
+  - As output you must print Peter\`s total expenses for new equipment
+    rounded to the second decimal point: **"Gladiator expenses:
+    {expenses} aureus"**
+
+<!-- end list -->
+
+  - Allowed working **time** / **memory**: **100ms** / **16MB**.
+
+**Examples**
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+<th><strong>Comment</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>7,</p>
+<p>2,</p>
+<p>3,</p>
+<p>4,</p>
+<p>5</p></td>
+<td>Gladiator expenses: 16.00 aureus</td>
+<td><p>Trashed helmet -&gt; 3 times</p>
+<p>Trashed sword -&gt; 2 times</p>
+<p>Trashed shield -&gt; 1 time</p>
+<p>Total: 6 + 6 + 4 = 16.00 aureus;</p></td>
+</tr>
+<tr class="even">
+<td><p>23,</p>
+<p>12.50,</p>
+<p>21.50,</p>
+<p>40,</p>
+<p>200</p></td>
+<td>Gladiator expenses: 608.00 aureus</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+## **20. \*Spice Must Flow**
+
+*Spice is Love, Spice is Life. And most importantly, Spice must flow. It
+must be extracted from the scorching sands of Arrakis, under the
+constant threat of giant sandworms. To make the work as efficient as
+possible, the Duke has tasked you with the creation of management
+software.*
+
+Write a program that calculates the **total amount** of spice that can
+be extracted from a source. The source has a **starting yield**, which
+indicates how much spice can be mined on the **first day**. After it has
+been mined for a day, the **yield drops** by 10, meaning on the second
+day it’ll produce 10 less spice than on the first, on the third day 10
+less than on the second, and so on (see examples). A source is
+considered profitable only while its yield is **at least** 100 – when
+less than 100 spices are expected in a day, abandon the source.
+
+The mining crew **consumes** 26 spices **every day** at the end of their
+shift and **an additional** 26 after the mine has been exhausted. Note
+that the workers **cannot** consume more spice than there is in storage.
+
+When the operation is complete, print on the console on two separate
+lines how many **days** the mine has operated and the **total** amount
+of spice extracted.
+
+### Input 
+
+You will receive a number, representing the **starting yield** of the
+source.
+
+### Output 
+
+Print on the console on two separate lines how many **days** the mine
+has operated and the **total amount** of spice extracted.
+
+###  Constraints 
+
+  - The starting yield will be a **number** within range \[0…228\].
+
+### Examples
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+<th><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>111</td>
+<td><p>2</p>
+<p>134</p></td>
+<td><p><strong>Day 1</strong> we extract 111 spices and at the end of the shift, the workers consume 26, leaving 85. The yield drops by 10 to 101.</p>
+<p><strong>On day 2</strong> we extract 101 spices, the workers consume 26, leaving 75. The total is 160 and the yield has dropped to 91.</p>
+<p><strong>Since</strong> the expected yield is less than 100, we abandon the source. The workers take another 26, leaving 134. The mine has operated for 2 days.</p></td>
+</tr>
+<tr class="even">
+<td>450</td>
+<td><p>36</p>
+<p>8938</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
