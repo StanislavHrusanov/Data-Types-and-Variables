@@ -696,3 +696,213 @@ has operated and the **total amount** of spice extracted.
 </tr>
 </tbody>
 </table>
+
+## **21. Digits with Words**
+
+Write a **function** that receives a **digit** in the form of a **word**
+(as a **string)** and prints the **digit** (as a **number)**.
+
+**Examples**
+
+| **Input**  | **Output** |
+| ---------- | ---------- |
+| **'nine'** | **9**      |
+| **'two'**  | **2**      |
+| **'zero'** | **0**      |
+
+
+## **22. Prime Number Checker**
+
+Write a **function** to check if a number is **prime** (only divisible
+by itself and one).
+
+The **input** comes as a single number argument.
+
+The **output** should be the return value of your function. Return
+**true** for prime number and **false** otherwise.
+
+**Examples**
+
+| **Input** | **Output** |
+| --------- | ---------- |
+| 7         | **true**   |
+| 8         | **false**  |
+| **81**    | **false**  |
+
+
+## **23. Cone**
+
+Write a **function** to calculate a cone’s **volume** and **total**
+**surface area** by given height and radius of the base.
+
+The **input** comes as two number arguments. The first element is the
+cone’s **radius** and the second is its **height**.
+
+The **output** should be printed to the console on a **new line** for
+every result. The result should be formatted to the **fourth decimal
+point.**
+
+**Examples**
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>3,</p>
+<p>5</p></td>
+<td><p><strong>volume = 47.1239</strong></p>
+<p><strong>area = 83.2298</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><strong>3.3,</strong></p>
+<p><strong>7.8</strong></p></td>
+<td><p><strong>volume = 88.9511</strong></p>
+<p><strong>area = 122.0159</strong></p></td>
+</tr>
+</tbody>
+</table>
+
+
+## **24. Biggest of 3 Numbers**
+
+Write a **function** that finds the **biggest number**.
+
+The **input** comes as 3 parameters.
+
+The **output** is the **biggest** of the input numbers.
+
+**Examples**
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>-2,</p>
+<p>7,</p>
+<p>3</p></td>
+<td><strong>7</strong></td>
+</tr>
+<tr class="even">
+<td><p><strong>130,</strong></p>
+<p><strong>5,</strong></p>
+<p><strong>99</strong></p></td>
+<td><strong>130</strong></td>
+</tr>
+<tr class="odd">
+<td><p><strong>43,</strong></p>
+<p><strong>43.2,</strong></p>
+<p><strong>43.1</strong></p></td>
+<td><strong>43.2</strong></td>
+</tr>
+<tr class="even">
+<td><p><strong>2,</strong></p>
+<p><strong>2,</strong></p>
+<p><strong>2</strong></p></td>
+<td><strong>2</strong></td>
+</tr>
+</tbody>
+</table>
+
+## **25. Binary to Decimal**
+
+Write a **function** that reads an 8-bit binary number and converts it
+to a decimal.
+
+The **input** comes as one string element, representing a binary number.
+
+The **output** should be printed to the console.
+
+**Examples**
+
+| **Input**    | **Output** |
+| ------------ | ---------- |
+| 00001001     | **9**      |
+| **11110000** | **240**    |
+
+## **26. Chess Board**
+
+Write a **function** to print a chessboard of size **n X n**. See the
+example for more information.
+
+The **input** comes as a single number argument **n**.
+
+The **output** should be returned as a result of your function in the
+form of a string.
+
+**Examples**
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3</td>
+<td><p><strong>&lt;div class="chessboard"&gt;</strong></p>
+<p><strong>&lt;div&gt;</strong></p>
+<p><strong>&lt;span class="black"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;span class="white"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;span class="black"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;/div&gt;</strong></p>
+<p><strong>&lt;div&gt;</strong></p>
+<p><strong>&lt;span class="white"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;span class="black"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;span class="white"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;/div&gt;</strong></p>
+<p><strong>&lt;div&gt;</strong></p>
+<p><strong>&lt;span class="black"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;span class="white"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;span class="black"&gt;&lt;/span&gt;</strong></p>
+<p><strong>&lt;/div&gt;</strong></p>
+<p><strong>&lt;/div&gt;</strong></p></td>
+</tr>
+</tbody>
+</table>
+
+## **27. Triangle Area**
+
+Write a **function** that calculates a **triangle’s area** by its 3
+sides.
+
+The **input** comes as three number arguments, representing one **side**
+of a triangle.
+
+The **output** should be printed to the console.
+
+**Examples**
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Input</strong></th>
+<th><strong>Output</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>2,</p>
+<p>3.5,</p>
+<p>4</p></td>
+<td><strong>3.</strong> <strong>4994419197923547</strong></td>
+</tr>
+<tr class="even">
+<td><p>3</p>
+<p>5.5</p>
+<p>4</p></td>
+<td><strong>5.854685623498498</strong></td>
+</tr>
+</tbody>
+</table>
